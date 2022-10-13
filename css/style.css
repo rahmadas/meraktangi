@@ -136,3 +136,29 @@ ul li a:hover{
 .social i:hover{
     color: var(--main-color);
 }
+
+/* media queries */
+
+@media (max-width:768px){
+    nav {
+        width: 1%;
+        padding-left: 50px;
+    }
+
+    .home-text {
+        padding-left: 200px;
+        padding-top: 30px;
+    }
+
+    .home- {
+        width: 200%;
+        padding-right: 250px;
+    }
+
+    .social {
+        top: 590px;
+        left: 90px;
+        width: 100%;
+    }
+
+}
